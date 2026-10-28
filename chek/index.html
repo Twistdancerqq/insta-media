@@ -12,7 +12,7 @@
 @media (prefers-color-scheme:dark){:root{--bg:#14161C;--card:#1C1F27;--ink:#F4F1EA;--muted:#A3A6B3;--accent:#FF7A45;--rule:#2C2F3A;--done:#5CCB91}}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:500 17px/1.55 Manrope,"Helvetica Neue",Arial,sans-serif;-webkit-text-size-adjust:100%}
-.wrap{max-width:640px;margin:0 auto;padding:40px max(18px,env(safe-area-inset-right)) 56px max(18px,env(safe-area-inset-left));display:grid;gap:28px}
+.wrap{max-width:640px;min-width:0;margin:0 auto;padding:40px max(18px,env(safe-area-inset-right)) 56px max(18px,env(safe-area-inset-left));display:grid;gap:28px}
 .kicker{font:700 13px/1 "JetBrains Mono",ui-monospace,monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
 h1{margin:0;font-size:clamp(30px,8vw,42px);line-height:1.08;font-weight:800;letter-spacing:-.02em;text-wrap:balance}
 h1 em{font-style:normal;color:var(--accent)}
@@ -23,6 +23,7 @@ p{margin:0}
 .group{display:grid;gap:12px}
 .group h2{margin:8px 0 0;font:700 13px/1 "JetBrains Mono",monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
 label.item{display:grid;grid-template-columns:28px 1fr;gap:14px;background:var(--card);border:1px solid var(--rule);border-radius:16px;padding:16px;cursor:pointer}
+label.item>div{min-width:0;overflow-wrap:break-word}
 label.item input{width:24px;height:24px;margin:2px 0 0;accent-color:var(--accent)}
 .item b{display:block;font-size:17px;line-height:1.35;margin-bottom:6px}
 .item span{display:block;color:var(--muted);font-size:15px}
