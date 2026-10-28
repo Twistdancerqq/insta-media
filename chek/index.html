@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>12 причин, почему реклама сливает бюджет · @ali.ads.ua</title>
+<meta name="description" content="Чек-лист для владельцев бизнеса и приложений: проверьте свою рекламу в Meta, Google и TikTok за 15 минут.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+:root{--bg:#F4F1EA;--card:#FFFDF8;--ink:#14161C;--muted:#5E6170;--accent:#E8571E;--rule:#DCD6C8;--done:#1F7A4D}
+@media (prefers-color-scheme:dark){:root{--bg:#14161C;--card:#1C1F27;--ink:#F4F1EA;--muted:#A3A6B3;--accent:#FF7A45;--rule:#2C2F3A;--done:#5CCB91}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:500 17px/1.55 Manrope,"Helvetica Neue",Arial,sans-serif;-webkit-text-size-adjust:100%}
+.wrap{max-width:640px;margin:0 auto;padding:40px max(18px,env(safe-area-inset-right)) 56px max(18px,env(safe-area-inset-left));display:grid;gap:28px}
+.kicker{font:700 13px/1 "JetBrains Mono",ui-monospace,monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+h1{margin:0;font-size:clamp(30px,8vw,42px);line-height:1.08;font-weight:800;letter-spacing:-.02em;text-wrap:balance}
+h1 em{font-style:normal;color:var(--accent)}
+p{margin:0}
+.lead{color:var(--muted)}
+.score{position:sticky;top:0;z-index:2;background:var(--bg);padding:12px 0;border-bottom:1px solid var(--rule);display:flex;justify-content:space-between;align-items:center;gap:12px;font-weight:700}
+.score b{font:700 22px "JetBrains Mono",monospace;color:var(--accent);font-variant-numeric:tabular-nums}
+.group{display:grid;gap:12px}
+.group h2{margin:8px 0 0;font:700 13px/1 "JetBrains Mono",monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+label.item{display:grid;grid-template-columns:28px 1fr;gap:14px;background:var(--card);border:1px solid var(--rule);border-radius:16px;padding:16px;cursor:pointer}
+label.item input{width:24px;height:24px;margin:2px 0 0;accent-color:var(--accent)}
+.item b{display:block;font-size:17px;line-height:1.35;margin-bottom:6px}
+.item span{display:block;color:var(--muted);font-size:15px}
+.item span i{font-style:normal;color:var(--ink);font-weight:700}
+label.item:has(input:checked){border-color:var(--accent)}
+.result{background:var(--ink);color:var(--bg);border-radius:20px;padding:24px;display:grid;gap:14px}
+.result h3{margin:0;font-size:24px;line-height:1.2}
+.btn{display:inline-block;justify-self:start;background:var(--accent);color:#fff;text-decoration:none;font-weight:800;padding:14px 22px;border-radius:14px}
+.foot{font:500 13px "JetBrains Mono",monospace;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header style="display:grid;gap:14px">
+    <span class="kicker">Чек-лист · Meta, Google, TikTok</span>
+    <h1>12 причин, почему реклама <em>сливает бюджет</em></h1>
+    <p class="lead">Откройте свой рекламный кабинет и отметьте то, что есть у вас. Займёт минут 15. Подходит и для бизнеса с заявками, и для приложений.</p>
+  </header>
+
+  <div class="score"><span>Нашли у себя</span><b id="n">0 / 12</b></div>
+
+  <section class="group">
+    <h2>Что считаете</h2>
+    <label class="item"><input type="checkbox"><div><b>Реклама оптимизируется на клики или установки, а не на заявки и оплаты</b><span>Алгоритм приводит ровно тех, кого вы попросили: любителей кликать. <i>Что сделать:</i> выбрать целью событие, которое приносит деньги: заявку, покупку, оплату подписки.</span></div></label>
+    <label class="item"><input type="checkbox"><div><b>Нужное событие не доходит до рекламной системы</b><span>Пиксель, Conversions API или Adjust/AppsFlyer не передают заявку или оплату, и система учится вслепую. <i>Что сделать:</i> оставить тестовую заявку и проверить, что она появилась в Events Manager или в MMP.</span></div></label>
+    <label class="item"><input type="checkbox"><div><b>Нет одной цифры успеха</b><span>Смотрите на CTR и охваты, а цену заявки, цену платящего и окупаемость не считаете. <i>Что сделать:</i> раз в неделю записывать расход, число заявок или оплат и цену одной.</span></div></label>
+  </section>
+
+  <section class="group">
+    <h2>Креативы</h2>
+    <label class="item"><input type="checkbox"><div><b>Одни и те же 1–2 объявления крутятся больше месяца</b><span>Люди видят их по 5–10 раз и перестают реагировать, цена растёт. <i>Что сделать:</i> добавлять новые варианты каждые 2–3 недели, не дожидаясь падения.</span></div></label>
+    <label class="item"><input type="checkbox"><div><b>Все объявления в одном формате</b><span>Только картинки или только одно видео. Reels и Stories показывают вертикальное видео, без него вы теряете самые дешёвые места. <i>Что сделать:</i> держать картинку, вертикальное видео и карусель.</span></div></label>
+    <label class="item"><input type="checkbox"><div><b>Выгоды нет в первых 3 секундах и в первой строке</b><span>Человек листает дальше раньше, чем понял, что ему предлагают. <i>Что сделать:</i> вынести главное в начало: цену, скидку, результат.</span></div></label>
+    <label class="item"><input type="checkbox"><div><b>Объявление выглядит как реклама</b><span>Глянцевый баннер с логотипом пролистывают на автомате. <i>Что сделать:</i> снять видео на телефон: человек, экран, процесс, отзыв.</span></div></label>
+  </section>
+
+  <section class="group">
+    <h2>Настройки</h2>
+    <label class="item"><input type="checkbox"><div><b>Бюджет размазан по многим группам</b><span>Каждой группе не хватает результатов, чтобы выйти из обучения. Meta советует около 50 целевых событий в неделю на группу. <i>Что сделать:</i> объединить группы, оставить меньше, но сильнее.</span></div></label>
+    <label class="item"><input type="checkbox"><div><b>Кампании правятся каждый день</b><span>Резкие изменения бюджета, аудитории или объявлений снова отправляют группу на обучение. <i>Что сделать:</i> менять раз в несколько дней и плавно.</span></div></label>
+    <label class="item"><input type="checkbox"><div><b>Реклама показывается тем, кто уже купил или установил</b><span>Вы платите за людей, которые и так ваши клиенты. <i>Что сделать:</i> исключить базу клиентов и установивших в настройках аудитории.</span></div></label>
+  </section>
+
+  <section class="group">
+    <h2>После клика</h2>
+    <label class="item"><input type="checkbox"><div><b>Страница не совпадает с объявлением</b><span>В рекламе скидка, на сайте её не найти. Или страница грузится дольше 3 секунд, или в форме 10 полей. <i>Что сделать:</i> открыть свою рекламу с телефона и пройти путь клиента до конца.</span></div></label>
+    <label class="item"><input type="checkbox"><div><b>Заявки обрабатывают медленно</b><span>Человек оставил заявку, а ему перезвонили завтра. В приложении то же самое делает долгая регистрация. <i>Что сделать:</i> отвечать в первые 15 минут или упростить первый шаг в приложении.</span></div></label>
+  </section>
+
+  <section class="result">
+    <h3 id="verdict">Отметьте пункты выше</h3>
+    <p id="advice">Чем больше отметок, тем больше денег уходит впустую.</p>
+    <p>Могу проверить ваш кабинет целиком: аудит за 3 дня, доступ только на просмотр, на выходе список, что исправить и в каком порядке.</p>
+    <a class="btn" href="https://ig.me/m/ali.ads.ua">Написать в директ</a>
+  </section>
+
+  <p class="foot">@ali.ads.ua · таргетолог и реклама приложений · Telegram @altrfxq</p>
+</div>
+<script>
+const boxes=[...document.querySelectorAll('input[type=checkbox]')];
+const n=document.getElementById('n'),v=document.getElementById('verdict'),a=document.getElementById('advice');
+function upd(){const k=boxes.filter(b=>b.checked).length;n.textContent=k+' / '+boxes.length;
+  if(k===0){v.textContent='Отметьте пункты выше';a.textContent='Чем больше отметок, тем больше денег уходит впустую.'}
+  else if(k<3){v.textContent='Есть что поправить';a.textContent='Начните с отмеченных пунктов: каждый исправляется за день-два.'}
+  else{v.textContent='Реклама теряет деньги';a.textContent='Три пункта и больше — бюджет уходит впустую каждый день. Лучше проверить кабинет целиком.'}}
+boxes.forEach(b=>b.addEventListener('change',upd));
+</script>
+</body>
+</html>
